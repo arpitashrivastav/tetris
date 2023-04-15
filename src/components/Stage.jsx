@@ -1,5 +1,5 @@
-import Cell from './Cell';
 import { StyledStage } from './styles/StyledStage';
+import Cell from './Cell';
 
 const Stage = ({ stage }) => {
   return (
