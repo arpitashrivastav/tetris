@@ -1,5 +1,5 @@
-const Display = () => {
-  return <div>Display</div>;
+const Display = ({ text }) => {
+  return <div>{text}</div>;
 };
 
 export default Display;
