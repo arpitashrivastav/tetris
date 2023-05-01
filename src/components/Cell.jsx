@@ -1,3 +1,4 @@
+import { memo } from 'react';
 import { StyledCell } from './styles/StyledCell';
 import { TETROMINOS } from '../tetrominos';
 
@@ -8,4 +9,4 @@ const Cell = ({ type }) => (
   </StyledCell>
 );
 
-export default React.memo(Cell);
+export default memo(Cell);
